@@ -23,7 +23,6 @@ require (
 	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mattn/go-isatty v0.0.7 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
-	github.com/multiformats/go-multiaddr v0.3.2 // indirect
 	github.com/multiformats/go-multibase v0.0.3
 	github.com/multiformats/go-multihash v0.0.15
 	github.com/peterh/liner v1.2.1 // indirect
