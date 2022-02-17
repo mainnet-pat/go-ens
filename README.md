@@ -1,11 +1,11 @@
 # go-ens
 
-[![Tag](https://img.shields.io/github/tag/wealdtech/go-ens.svg)](https://github.com/wealdtech/go-ens/releases/)
+[![Tag](https://img.shields.io/github/tag/wealdtech/go-ens.svg)](https://github.com/mainnet-pat/go-ens/releases/)
 [![License](https://img.shields.io/github/license/wealdtech/go-ens.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/wealdtech/go-ens?status.svg)](https://godoc.org/github.com/wealdtech/go-ens)
+[![GoDoc](https://godoc.org/github.com/mainnet-pat/go-ens?status.svg)](https://godoc.org/github.com/mainnet-pat/go-ens)
 [![Travis CI](https://img.shields.io/travis/wealdtech/go-ens.svg)](https://travis-ci.org/wealdtech/go-ens)
 [![codecov.io](https://img.shields.io/codecov/c/github/wealdtech/go-ens.svg)](https://codecov.io/github/wealdtech/go-ens)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wealdtech/go-ens)](https://goreportcard.com/report/github.com/wealdtech/go-ens)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mainnet-pat/go-ens)](https://goreportcard.com/report/github.com/mainnet-pat/go-ens)
 
 Go module to simplify interacting with the [Ethereum Name Service](https://ens.domains/) contracts.
 
@@ -23,7 +23,7 @@ Go module to simplify interacting with the [Ethereum Name Service](https://ens.d
 `go-ens` is a standard Go module which can be installed with:
 
 ```sh
-go get github.com/wealdtech/go-ens
+go get github.com/mainnet-pat/go-ens
 ```
 
 ## Usage
@@ -93,7 +93,7 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/ethclient"
-	ens "github.com/wealdtech/go-ens/v3"
+	ens "github.com/mainnet-pat/go-ens/v3"
 )
 
 func main() {
@@ -127,7 +127,7 @@ package main
 
 import (
     "github.com/ethereum/go-ethereum/ethclient"
-	ens "github.com/wealdtech/go-ens/v3"
+	ens "github.com/mainnet-pat/go-ens/v3"
 )
 
 func main() {
@@ -163,7 +163,7 @@ Jim McDonald: [@mcdee](https://github.com/mcdee).
 
 ## Contribute
 
-Contributions welcome. Please check out [the issues](https://github.com/wealdtech/go-ens/issues).
+Contributions welcome. Please check out [the issues](https://github.com/mainnet-pat/go-ens/issues).
 
 ## License
 

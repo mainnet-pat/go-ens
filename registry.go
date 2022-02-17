@@ -22,9 +22,9 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/wealdtech/go-ens/v3/contracts/auctionregistrar"
-	"github.com/wealdtech/go-ens/v3/contracts/registry"
-	"github.com/wealdtech/go-ens/v3/util"
+	"github.com/mainnet-pat/go-ens/v3/contracts/auctionregistrar"
+	"github.com/mainnet-pat/go-ens/v3/contracts/registry"
+	"github.com/mainnet-pat/go-ens/v3/util"
 )
 
 // Registry is the structure for the registry contract
@@ -129,7 +129,7 @@ func RegistryContractAddress(backend bind.ContractBackend) (common.Address, erro
 	//	}
 
 	// Instantiate the registry contract.  The same for all chains.
-	return common.HexToAddress("00000000000C2E074eC69A0dFb2997BA6C7d2e1e"), nil
+	return common.HexToAddress("3596f09d70B454049Ce11390A3eeBfBf6a9e3945"), nil
 }
 
 // RegistryContractFromRegistrar obtains the registry contract given an
